@@ -199,6 +199,9 @@ module Google
         # @!attribute [rw] database
         #   @return [::Google::Cloud::SecurityCenter::V1::Database]
         #     Database associated with the finding.
+        # @!attribute [rw] attack_exposure
+        #   @return [::Google::Cloud::SecurityCenter::V1::AttackExposure]
+        #     The results of an attack path simulation relevant to this finding.
         # @!attribute [rw] files
         #   @return [::Array<::Google::Cloud::SecurityCenter::V1::File>]
         #     File associated with the finding.
